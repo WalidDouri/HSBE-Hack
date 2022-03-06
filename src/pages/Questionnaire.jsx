@@ -91,6 +91,7 @@ export default function questionnaire(){
 
       <Form.Item name="slider" label="How healthy do you consider yourself?">
         <Slider
+          style={{width: '80%', marginLeft: '30px'}}
           marks={{
             0: "Very Poor",
             25: '',

@@ -3,6 +3,8 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
+
+import { Button} from 'antd';
 import './Landing.css'
 import mainLogo from './Nubian-logos_transparent.png'
 import blackDoc from './blackdoc.jpg'
@@ -120,7 +122,7 @@ export default function Example() {
                 <span className="block text-indigo-600 xl:inline">Own Hands!! 👏</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              It was hidden under the log beside the stream. It had been there for as long as Jerry had been alive. He wasn't sure if anyone besides him and his friends knew of its existence. 
+              Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses. Feeling good about yourself and taking care of your health are important for your self-esteem and self-image. Maintain a healthy lifestyle by doing what is right for your body - Let us help you in that journey .
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -139,9 +141,12 @@ export default function Example() {
                     Login Here
                   </a>
                 </div>
-                <div class="create_account">
+                {/* <div class="create_account">
                   New? Create an account Click here (add button or w.e)
-                </div>
+                  <Button type="primary" htmlType="submit" href="/questionnaire2">
+                  Next
+                 </Button>
+                </div> */}
               </div>
             </div>
           </main>
